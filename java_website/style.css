@@ -1,0 +1,92 @@
+/* Base Styles */
+body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    line-height: 1.6;
+    margin: 0;
+    padding: 0;
+    background-color: #f4f7f6;
+    color: #333;
+}
+
+/* Header & Footer */
+header {
+    background-color: #e76f00; /* Java Orange */
+    color: white;
+    padding: 2rem 1rem;
+    text-align: center;
+}
+
+footer {
+    text-align: center;
+    padding: 1rem;
+    font-size: 0.9rem;
+    color: #666;
+}
+
+/* Main Layout */
+main {
+    max-width: 800px;
+    margin: 2rem auto;
+    padding: 0 1rem;
+}
+
+section {
+    background: white;
+    padding: 1.5rem;
+    margin-bottom: 1.5rem;
+    border-radius: 8px;
+    box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+}
+
+h2 {
+    color: #e76f00;
+    border-bottom: 2px solid #eee;
+    padding-bottom: 0.5rem;
+}
+
+/* Code Blocks */
+pre {
+    background-color: #2d2d2d;
+    color: #ccc;
+    padding: 1rem;
+    border-radius: 5px;
+    overflow-x: auto;
+}
+
+code {
+    font-family: Consolas, Monaco, monospace;
+}
+
+/* Quiz Section Styles */
+.quiz-section {
+    background-color: #eef7f9;
+}
+
+.quiz-btn {
+    background-color: #007396;
+    color: white;
+    border: none;
+    padding: 10px 15px;
+    margin: 5px;
+    border-radius: 4px;
+    cursor: pointer;
+    font-size: 1rem;
+    transition: background-color 0.3s;
+}
+
+.quiz-btn:hover {
+    background-color: #005b77;
+}
+
+#quiz-feedback {
+    font-weight: bold;
+    margin-top: 15px;
+}
+
+.correct {
+    color: #28a745;
+}
+
+.incorrect {
+    color: #dc3545;
+}

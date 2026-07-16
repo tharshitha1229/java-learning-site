@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Learn Java - Basics</title>
+    <!-- Links to your CSS file -->
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <header>
+        <h1>Java Programming for Beginners</h1>
+        <p>A quick guide to getting started with Java</p>
+    </header>
+
+    <main>
+        <section>
+            <h2>What is Java?</h2>
+            <p>Java is a high-level, class-based, object-oriented programming language designed to let programmers <em>write once, run anywhere</em> (WORA).</p>
+        </section>
+
+        <section>
+            <h2>Your First Program</h2>
+            <p>Every Java application begins with a class name, and the program is executed from the <code>main</code> method.</p>
+            <pre><code>public class HelloWorld {
+    public static void main(String[] args) {
+        System.out.println("Hello, World!");
+    }
+}</code></pre>
+        </section>
+
+        <section class="quiz-section">
+            <h2>Test Your Knowledge</h2>
+            <p>Which method serves as the entry point for any Java program?</p>
+            <!-- These buttons trigger the JavaScript function -->
+            <button class="quiz-btn" onclick="checkAnswer('start')">start()</button>
+            <button class="quiz-btn" onclick="checkAnswer('main')">main()</button>
+            <button class="quiz-btn" onclick="checkAnswer('init')">init()</button>
+            
+            <p id="quiz-feedback"></p>
+        </section>
+    </main>
+
+    <footer>
+        <p>Built as a static learning project and hosted on GitHub Pages.</p>
+    </footer>
+
+    <!-- Links to your JavaScript file -->
+    <script src="script.js"></script>
+</body>
+</html>
